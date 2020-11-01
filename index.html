@@ -69,7 +69,7 @@
         <ol>
           <li class="promo-slide-container promo-selfie-stick">
             <img src="img/slider-1 1.png" width="384" height="486" alt="Самая длинная серлфи палка">
-            <div class="promo-info-comtainer">
+            <div class="promo-info-container">
               <h3>Делай селфи,</br> как Бен Стиллер!</h3>
               <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
               <a href="" class="detail">Подробнее</a>
@@ -91,7 +91,7 @@
           </li>
           <li class="promo-slide-container promo-band promo-anactive">
             <img src="img/slider-2 1.png" width="345" height="483" alt="Мотивирующий фитнес-браслет">
-            <div class="promo-info-comtainer">
+            <div class="promo-info-container">
               <h3>Худеем</br> правильно!</h3>
               <p>Мотивирующие фитнес-браслеты помогут найти в себе силы</br> не пропускать занятия и соблюдать диету.</p>
               <a href="" class="detail">Подробнее</a>
@@ -105,7 +105,7 @@
           </li>
           <li class="promo-slide-container promo-quadcopter promo-anactive">
             <img src="img/slider-3 1.png" width="526" height="334" alt="Квадрокоптер с мощным лазером">
-            <div class="promo-info-comtainer">
+            <div class="promo-info-container">
               <h3>Порхает как бабочка,</br> жалит как пчела!</h3>
               <p>Этот обычный, на первый взгляд, квадрокоптер оснащен</br> мощным лазером, замаскированным под стандартную камеру.</p>
               <a href="" class="detail">Подробнее</a>
@@ -123,9 +123,9 @@
           </li>
         </ol>
         <div class="promo-button-container">
-          <button class="promo-slider-button promo-selfie-button promo-button-active" type="button"><span class="visually-hidden">Слайд с селфи палкой</span></button>
-          <button class="promo-slider-button promo-band-button" type="button"><span class="visually-hidden">Слайд с браслетом</span></button>
-          <button class="promo-slider-button promo-qudrocopter-button"  type="button"><span class="visually-hidden">Слайд с квадрокоптером</span></button>
+          <button class="promo-slider-button promo-selfie-button promo-button-active" type="button"><span class="visually-hidden" aria-label="Первый слайд">Слайд с селфи палкой</span></button>
+          <button class="promo-slider-button promo-band-button" type="button"><span class="visually-hidden" aria-label="Второй слайд">Слайд с браслетом</span></button>
+          <button class="promo-slider-button promo-qudrocopter-button"  type="button"><span class="visually-hidden" aria-label="Третий слайд">Слайд с квадрокоптером</span></button>
         </div>
       </section>
       <section class="categories">
@@ -166,7 +166,7 @@
                 </defs>
                 </svg>
                 </div>
-              <p>Моноподы для селфи</p>
+              <p>Моноподы</br> для селфи</p>
             </a>
           </li>
           <li class="categories-item">
@@ -257,23 +257,23 @@
         </ul>
       </section>
       <section class="services-slider">
-        <div сlass="services-slider-container">
+        <div class="services-sliders-container">
           <h2 class="visually-hidden">Сервисы</h2>
           <div class="services-slider-buttons">
-             <button>Доставка</button>
-             <button>Гарантия</button>
-             <button>Кредит</button>
+             <button class="services-button delivery-button services-button-active" type="button">Доставка</button>
+             <button class="services-button guarantee-button" type="button">Гарантия</button>
+             <button class="services-button credit-button" type="button">Кредит</button>
           </div>
-          <div calss="services-slider-content">
-            <div class="delivery">
+          <div class="services-slider-content">
+            <div class="services-item delivery">
               <h3>Доставка</h3>
               <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
             </div>
-            <div>
+            <div class="services-item guarantee services-item-hide">
               <h3>Гарантия</h3>
               <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
             </div>
-            <div>
+            <div class=" services-item credit services-item-hide">
               <h3>Кредит</h3>
               <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p> 
             </div>
@@ -295,30 +295,30 @@
           <img src="img/logo-vive.png" width="260" height="100" alt="Товары от Vive">
         </a>
       </section>
-      <section>
+      <section class="info">
         <h2 class="visually-hidden">Инфо</h2>
         <div class="about-us">
           <h3>О нас</h3>
           <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
           <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
-          <ul>
+          <ul class="partners">
             <li>
-              <a href="">Деловые линии</a>
+              <a class="partners-item" href="">Деловые линии</a>
             </li>
             <li>
-              <a href="">Автотрейдинг</a>
+              <a class="partners-item" href="">Автотрейдинг</a>
             </li>
             <li>
-              <a href="">ЖелДорЭкпедиция</a>
+              <a class="partners-item" href="">ЖелДорЭкпедиция</a>
             </li>
           </ul>
-          <a href="">Подробнее о нас</a>
+          <a href="" class="about-us-detail">Подробнее о нас</a>
         </div>
-        <div class="Contacts">
+        <div class="contacts">
           <h3>Контакты</h3>
           <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-          <img>
-          <a>Напишите нам</a>
+          <img src="img/map.png" width="560" height="222" alt="Мынаходимся по адресу г. Москва, ул. Строителей, 15">
+          <button class="write-button" type="button">Напишите нам</button>
         </div>
       </section>
     </main>
