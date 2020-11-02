@@ -309,7 +309,7 @@
               <a class="partners-item" href="">Автотрейдинг</a>
             </li>
             <li>
-              <a class="partners-item" href="">ЖелДорЭкпедиция</a>
+              <a class="partners-item" href="">ЖелДорЭкcпедиция</a>
             </li>
           </ul>
           <a href="" class="about-us-detail">Подробнее о нас</a>
@@ -317,13 +317,48 @@
         <div class="contacts">
           <h3>Контакты</h3>
           <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-          <img src="img/map.png" width="560" height="222" alt="Мынаходимся по адресу г. Москва, ул. Строителей, 15">
+          <button class="map-button" type="button">
+            <span class="visually-hidden">Карта</span>
+            <img src="img/map.png" width="560" height="222" alt="Мынаходимся по адресу г. Москва, ул. Строителей, 15">
+          </button>
+          <div class="map-modal map-modal-hide">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1604273139956!5m2!1sru!2sru" width="960" height="559" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <button type="button"  class="map-close">
+              <span class="visually-hidden">Закрыть карту</span>
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.7">
+                <path d="M22.9499 24.725L14.9999 16.7625L7.0499 24.725L5.2749 22.95L13.2374 15L5.2749 7.04996L7.0499 5.27496L14.9999 13.2375L22.9499 5.28746L24.7124 7.04996L16.7624 15L24.7124 22.95L22.9499 24.725Z" fill="white"/>
+                </g>
+                </svg>
+            </button>
+          </div>
           <button class="write-button" type="button">Напишите нам</button>
         </div>
+        <form class="modal-write-us write-us-hide">
+          <div class="write-us-item ">
+            <label class="write-us-label" for="name">Ваше имя:</label>
+            <input class="write-us-input input-name" type="text" name="name" id="name" placeholder="Имя Фамилия">
+          </div> 
+          <div class="write-us-item">
+            <label class="write-us-label" for="email">Ваш e-mail:</label>
+            <input class="write-us-input input-email" type="email" name="email" id="email" placeholder="email@example.com">
+          </div> 
+          <label class="write-us-label" for="message">Текст письма:</label>
+          <textarea type="text" name="message" id="message" class="message" placeholder="В свободной форме"></textarea>
+          <button type="submit" metod="get" class="write-us-button">Отправить</button>
+          <button type="button"  class="write-us-close">
+            <span class="visually-hidden">Закрыть форму</span>
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.7">
+              <path d="M22.9499 24.725L14.9999 16.7625L7.0499 24.725L5.2749 22.95L13.2374 15L5.2749 7.04996L7.0499 5.27496L14.9999 13.2375L22.9499 5.28746L24.7124 7.04996L16.7624 15L24.7124 22.95L22.9499 24.725Z" fill="white"/>
+              </g>
+              </svg>
+          </button>
+        </form>
       </section>
     </main>
-    <footer>
-      <section class="footer-container">
+    <footer class="main-footer">
+      <div class="footer-container">
         <div class="footer-tools-and-logo">
           <span class="footer-logo">Device</span>
           <div class="footer-tools-panel"> 
