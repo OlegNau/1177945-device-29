@@ -22,7 +22,6 @@ const mapButton = document.querySelector(".map-button");
 const mapModal = document.querySelector(".map-modal");
 const mapClose = document.querySelector(".map-close");
 
-
 catalogListButton.addEventListener("click", function(evt) {
     evt.preventDefault();
     headerCatalogList.classList.toggle("nav-catalog-hide");
