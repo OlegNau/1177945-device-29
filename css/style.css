@@ -448,6 +448,7 @@ color: var(--basic-special-hover-black);
 
 .promo-slide-container img {
   margin: auto;
+  background-color: transparent;
 }
 
 .promo-selfie-stick img{
