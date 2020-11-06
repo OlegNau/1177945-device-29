@@ -8,7 +8,19 @@
   </head>
   <body>
     <header class="main-header">
-      <a href="" class="header-logo">Device</a>
+      <a href="" class="header-logo">
+        <span class="visually-hidden">Device</span>
+        <svg width="163" height="35" viewBox="0 0 163 35" fill="black" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip99)">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M-0.151001 0.701993V34.302H13.381C15.5624 34.3553 17.7309 33.954 19.7487 33.1235C21.7665 32.2929 23.5892 31.0514 25.101 29.478C26.6506 27.9007 27.8665 26.0273 28.6761 23.9697C29.4857 21.912 29.8724 19.7124 29.813 17.502C29.8724 15.2916 29.4857 13.092 28.6761 11.0343C27.8665 8.97669 26.6506 7.1033 25.101 5.52599C23.5891 3.9527 21.7663 2.7113 19.7486 1.88079C17.7308 1.05028 15.5623 0.648834 13.381 0.701993H-0.151001ZM7.582 26.91V8.09099H13.382C14.5845 8.04309 15.7838 8.24675 16.903 8.68895C18.0223 9.13115 19.0369 9.80215 19.882 10.659C20.7304 11.5766 21.3875 12.6541 21.8149 13.8285C22.2422 15.0029 22.4313 16.2507 22.371 17.499C22.4313 18.7473 22.2423 19.9951 21.8149 21.1695C21.3876 22.3439 20.7305 23.4214 19.882 24.339C19.0371 25.196 18.0225 25.8672 16.9032 26.3094C15.7839 26.7516 14.5845 26.9551 13.382 26.907H7.582V26.91ZM42.382 20.958H54.464V13.658H42.378V8.09099H55.669V0.701993H34.645V34.302H55.91V26.91H42.378V20.958H42.382ZM78.725 34.302L89.744 0.701993H81.286L73.795 25.422L66.304 0.701993H57.847L68.866 34.302H78.725ZM93.125 34.302H100.858V0.701993H93.125V34.302ZM131.74 32.886C134.233 31.574 136.321 29.6076 137.781 27.198L131.111 23.358C130.381 24.659 129.279 25.7121 127.946 26.382C126.505 27.1262 124.903 27.504 123.282 27.482C121.962 27.5449 120.643 27.3343 119.408 26.8635C118.173 26.3927 117.048 25.6718 116.105 24.746C115.195 23.7791 114.489 22.6393 114.028 21.3942C113.568 20.1492 113.362 18.8242 113.423 17.498C113.362 16.1718 113.568 14.8468 114.028 13.6017C114.489 12.3567 115.195 11.2168 116.105 10.25C117.048 9.32422 118.173 8.60333 119.408 8.13252C120.643 7.6617 121.962 7.45113 123.282 7.51399C124.893 7.49098 126.486 7.86172 127.921 8.59399C129.263 9.2718 130.373 10.3326 131.111 11.642L137.781 7.80199C136.294 5.39746 134.191 3.43378 131.691 2.11399C129.109 0.720899 126.216 0.00268346 123.282 0.0259933C113.503 -0.246007 105.485 7.71699 105.691 17.498C105.483 27.279 113.5 35.245 123.279 34.974C126.229 35.0012 129.138 34.283 131.737 32.886H131.74ZM149.621 20.958H161.703V13.658H149.618V8.09099H162.908V0.701993H141.885V34.302H163.15V26.91H149.618V20.958H149.621Z"/>
+          </g>
+          <defs>
+            <clipPath id="clip99">
+              <rect width="163" height="35" fill="white"/>
+            </clipPath>
+          </defs>
+        </svg>          
+      </a>
       <div class="tools">
         <form class="search-form">
           <label class="visually-hidden" for="search">Поиск</label>
@@ -21,14 +33,14 @@
       </div> 
       <nav class="site-navigation">
         <div>
-          <button class="header-catalog-button" type="button">Каталог товаров</button>
-          <div class="nav-catalog nav-catalog-hide">
+          <a class="header-catalog-button" type="button">Каталог товаров</a>
+          <div class="nav-catalog">
             <ul class="tv-photo">
               <li>
                 <a class="footer-catalog-item" href="">Виртуальная реальность</a>
               </li>
               <li>
-                <a class="footer-catalog-item" href="">Моноподы для селфи</a>
+                <a class="footer-catalog-item" href="catalog.html">Моноподы для селфи</a>
               </li>
               <li>
                 <a class="footer-catalog-item" href="">Экшн-камеры</a>
@@ -302,65 +314,39 @@
           <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
           <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
           <ul class="partners">
-            <li>
-              <a class="partners-item" href="">Деловые линии</a>
-            </li>
-            <li>
-              <a class="partners-item" href="">Автотрейдинг</a>
-            </li>
-            <li>
-              <a class="partners-item" href="">ЖелДорЭкcпедиция</a>
-            </li>
+            <li class="partners-item">Деловые линии</li>
+            <li class="partners-item">Автотрейдинг</li>
+            <li class="partners-item">ЖелДорЭкcпедиция</li>
           </ul>
           <a href="" class="about-us-detail">Подробнее о нас</a>
         </div>
         <div class="contacts">
           <h3>Контакты</h3>
           <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-          <button class="map-button" type="button">
+          <a href="" class="map-button">
             <span class="visually-hidden">Карта</span>
             <img src="img/map.png" width="560" height="222" alt="Мынаходимся по адресу г. Москва, ул. Строителей, 15">
-          </button>
-          <div class="map-modal map-modal-hide">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1604273139956!5m2!1sru!2sru" width="960" height="559" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <button type="button"  class="map-close">
-              <span class="visually-hidden">Закрыть карту</span>
-              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Закрытие карты">
-                <g opacity="0.7">
-                  <path d="M22.9499 24.725L14.9999 16.7625L7.0499 24.725L5.2749 22.95L13.2374 15L5.2749 7.04996L7.0499 5.27496L14.9999 13.2375L22.9499 5.28746L24.7124 7.04996L16.7624 15L24.7124 22.95L22.9499 24.725Z" fill="white"/>
-                </g>
-                </svg>
-            </button>
-          </div>
-          <button class="write-button" type="button">Напишите нам</button>
+          </a>
+          <a href="" class="write-button">Напишите нам</a>
         </div>
-        <form class="modal-write-us write-us-hide">
-          <div class="write-us-item ">
-            <label class="write-us-label" for="name">Ваше имя:</label>
-            <input class="write-us-input input-name" type="text" name="name" id="name" placeholder="Имя Фамилия">
-          </div> 
-          <div class="write-us-item">
-            <label class="write-us-label" for="email">Ваш e-mail:</label>
-            <input class="write-us-input input-email" type="email" name="email" id="email" placeholder="email@example.com">
-          </div> 
-          <label class="write-us-label" for="message">Текст письма:</label>
-          <textarea name="message" id="message" class="message" placeholder="В свободной форме"></textarea>
-          <button type="submit" class="write-us-button">Отправить</button>
-          <button type="button"  class="write-us-close">
-            <span class="visually-hidden">Закрыть форму</span>
-            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="закрытие формы">
-              <g opacity="0.7">
-                <path d="M22.9499 24.725L14.9999 16.7625L7.0499 24.725L5.2749 22.95L13.2374 15L5.2749 7.04996L7.0499 5.27496L14.9999 13.2375L22.9499 5.28746L24.7124 7.04996L16.7624 15L24.7124 22.95L22.9499 24.725Z" fill="white"/>
-              </g>
-              </svg>
-          </button>
-        </form>
       </section>
     </main>
     <footer class="main-footer">
       <div class="footer-container">
         <div class="footer-tools-and-logo">
-          <a href="" class="footer-logo">Device</a>
+          <a href="" class="footer-logo">
+            <span class="visually-hidden">Device</span>
+            <svg width="163" height="35" viewBox="0 0 163 35" fill="#F0C52E" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip98)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M-0.151001 0.702054V34.3021H13.381C15.5624 34.3554 17.7309 33.954 19.7487 33.1235C21.7665 32.293 23.5892 31.0515 25.101 29.4781C26.6506 27.9008 27.8665 26.0274 28.6761 23.9697C29.4857 21.9121 29.8724 19.7124 29.813 17.5021C29.8724 15.2917 29.4857 13.092 28.6761 11.0344C27.8665 8.97675 26.6506 7.10336 25.101 5.52605C23.5891 3.95276 21.7663 2.71136 19.7486 1.88085C17.7308 1.05034 15.5623 0.648895 13.381 0.702054H-0.151001ZM7.582 26.9101V8.09105H13.382C14.5845 8.04315 15.7838 8.24682 16.903 8.68901C18.0223 9.13121 19.0369 9.80221 19.882 10.6591C20.7304 11.5767 21.3875 12.6542 21.8149 13.8286C22.2422 15.003 22.4313 16.2508 22.371 17.4991C22.4313 18.7474 22.2423 19.9952 21.8149 21.1696C21.3876 22.344 20.7305 23.4215 19.882 24.3391C19.0371 25.1961 18.0225 25.8672 16.9032 26.3094C15.7839 26.7517 14.5845 26.9552 13.382 26.9071H7.582V26.9101ZM42.382 20.9581H54.464V13.6581H42.378V8.09105H55.669V0.702054H34.645V34.3021H55.91V26.9101H42.378V20.9581H42.382ZM78.725 34.3021L89.744 0.702054H81.286L73.795 25.4221L66.304 0.702054H57.847L68.866 34.3021H78.725ZM93.125 34.3021H100.858V0.702054H93.125V34.3021ZM131.74 32.8861C134.233 31.574 136.321 29.6076 137.781 27.1981L131.111 23.3581C130.381 24.659 129.279 25.7121 127.946 26.3821C126.505 27.1263 124.903 27.5041 123.282 27.4821C121.962 27.5449 120.643 27.3343 119.408 26.8635C118.173 26.3927 117.048 25.6718 116.105 24.7461C115.195 23.7792 114.489 22.6394 114.028 21.3943C113.568 20.1492 113.362 18.8242 113.423 17.4981C113.362 16.1719 113.568 14.8469 114.028 13.6018C114.489 12.3567 115.195 11.2169 116.105 10.2501C117.048 9.32428 118.173 8.60339 119.408 8.13258C120.643 7.66177 121.962 7.45119 123.282 7.51405C124.893 7.49104 126.486 7.86178 127.921 8.59405C129.263 9.27186 130.373 10.3327 131.111 11.6421L137.781 7.80205C136.294 5.39752 134.191 3.43384 131.691 2.11405C129.109 0.72096 126.216 0.0027445 123.282 0.0260544C113.503 -0.245946 105.485 7.71705 105.691 17.4981C105.483 27.2791 113.5 35.2451 123.279 34.9741C126.229 35.0013 129.138 34.2831 131.737 32.8861H131.74ZM149.621 20.9581H161.703V13.6581H149.618V8.09105H162.908V0.702054H141.885V34.3021H163.15V26.9101H149.618V20.9581H149.621Z"/>
+              </g>
+              <defs>
+                <clipPath id="clip98">
+                  <rect width="163" height="35" fill="white"/>
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
           <div class="footer-tools-panel"> 
             <a href="" class="footer-login">Войти</a>
             <a href="" class="footer-compare">Сравнить</a>
@@ -420,6 +406,38 @@
         </section>
       </div>
     </footer>
+    <form class="modal-write-us write-us-hide">
+      <div class="write-us-item ">
+        <label class="write-us-label" for="name">Ваше имя:</label>
+        <input class="write-us-input input-name" type="text" name="name" id="name" placeholder="Имя Фамилия">
+      </div> 
+      <div class="write-us-item">
+        <label class="write-us-label" for="email">Ваш e-mail:</label>
+        <input class="write-us-input input-email" type="email" name="email" id="email" placeholder="email@example.com">
+      </div> 
+      <label class="write-us-label" for="message">Текст письма:</label>
+      <textarea name="message" id="message" class="message" placeholder="В свободной форме"></textarea>
+      <button type="submit" class="write-us-button">Отправить</button>
+      <button type="button"  class="write-us-close">
+        <span class="visually-hidden">Закрыть форму</span>
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="закрытие формы">
+          <g opacity="0.7">
+            <path d="M22.9499 24.725L14.9999 16.7625L7.0499 24.725L5.2749 22.95L13.2374 15L5.2749 7.04996L7.0499 5.27496L14.9999 13.2375L22.9499 5.28746L24.7124 7.04996L16.7624 15L24.7124 22.95L22.9499 24.725Z" fill="white"/>
+          </g>
+          </svg>
+      </button>
+    </form>
+    <div class="map-modal map-modal-hide">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1604273139956!5m2!1sru!2sru" width="960" height="559" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <button type="button"  class="map-close">
+        <span class="visually-hidden">Закрыть карту</span>
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Закрытие карты">
+          <g opacity="0.7">
+            <path d="M22.9499 24.725L14.9999 16.7625L7.0499 24.725L5.2749 22.95L13.2374 15L5.2749 7.04996L7.0499 5.27496L14.9999 13.2375L22.9499 5.28746L24.7124 7.04996L16.7624 15L24.7124 22.95L22.9499 24.725Z" fill="white"/>
+          </g>
+          </svg>
+      </button>
+    </div>
     <script src="js/script.js"></script>
   </body>
 </html>
