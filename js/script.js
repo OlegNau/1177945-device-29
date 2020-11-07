@@ -1,5 +1,3 @@
-const headerCatalogList = document.querySelector(".nav-catalog");
-const catalogListButton = document.querySelector(".header-catalog-button");
 let promoSelfieButton = document.querySelector(".promo-selfie-button");
 let promoBandButton = document.querySelector(".promo-band-button");
 let promoQuadcopterButton = document.querySelector(".promo-qudrocopter-button");
@@ -21,11 +19,6 @@ let inputEmail = document.querySelector(".input-email");
 const mapButton = document.querySelector(".map-button");
 const mapModal = document.querySelector(".map-modal");
 const mapClose = document.querySelector(".map-close");
-
-catalogListButton.addEventListener("click", function(evt) {
-    evt.preventDefault();
-    headerCatalogList.classList.toggle("nav-catalog-hide");
-  });
 
 promoSelfieButton.addEventListener("click", function(evt) {
   evt.preventDefault();
@@ -111,6 +104,12 @@ modalWriteUs.addEventListener("submit",function (evt) {
 });
 
 modalWriteUs.addEventListener("submit",function (evt) {
+  if(!inputName.value|| !message.value ) {
+  evt.preventDefault();
+  modalWriteUs.classList.add("modal-error");}
+});
+
+modalWriteUs.addEventListener("submit",function (evt) {
   if(!inputEmail.value) {
   evt.preventDefault();
   inputEmail.classList.add("input-error-style");}
@@ -125,3 +124,4 @@ mapClose.addEventListener("click", function(evt) {
   evt.preventDefault();
   mapModal.classList.add("map-modal-hide");
 });
+
