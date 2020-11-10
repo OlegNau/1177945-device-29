@@ -161,7 +161,7 @@ img {
   position: absolute;
   width: 16px;
   height: 16px;
-  background-image: url(../img/icon_search.svg);
+  background-image: url(../img/icon-search.svg);
   background-repeat: no-repeat;
   top: 48px;
 }
@@ -341,7 +341,7 @@ img {
   content: '';
   width: 22px;
   height: 22px;
-  background-image: url(../img/icon_plus.svg);
+  background-image: url(../img/icon-plus.svg);
   left: 231px;
   top: 1px;
   position: absolute;
@@ -1612,7 +1612,7 @@ img {
   background-color: var(--basic-yellow);
   width: 80px;
   height: 7px;
-  top: 49px;
+  top: 50px;
   left: 0;
 }
 
